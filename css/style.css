@@ -13,7 +13,7 @@ body{
     vertical-align: baseline;
     
 }
-
+/*css app goes here*/
 .app{
     animation: appear 1s ease-out;
     animation-duration: 1s;
@@ -25,7 +25,7 @@ body{
     animation-play-state: running;
     animation-name: appear;
 }
-
+/*HomePage css goes here*/
 .home-page{
     min-height: 90vh;
     padding: 0;
@@ -51,7 +51,7 @@ html{
     font-family: Open Sans,sans-serif;
     /* overflow-x: hidden; */
 }
-
+/*header css goes here*/
 header{
     position: relative;
     padding: 15px 0 25px;
@@ -84,7 +84,7 @@ a:active, a:hover{
 
 .logo{
     background-image: url("../img/logo.png");
-    width: 260px;
+    width: 290px;
     height: 100px;
     
 }
@@ -120,7 +120,7 @@ header nav{
     transition: visibility 0s,opacity .5s;
     display: block;
 }
-
+/*nav css goes here*/
 nav{
     padding: 0;
     margin: 0;
@@ -201,7 +201,7 @@ header nav .nav-item.button{
     border: 1px solid #8ca23b;
     background: linear-gradient(180deg,#b1c067 0,#8ca23b);
 }
-
+/*banner css goes here*/
 .home-page .banner{
     color: #fff;
     background-image: url("../img/telecom1.jpeg");
@@ -218,7 +218,7 @@ header nav .nav-item.button{
     bottom: 0;
     left: 0;
     right: 0;
-    background: rgba(0,0,0,.7);
+    background: rgba(0,0,0,.2);
 }
 
 .home-page .banner form{
@@ -271,7 +271,7 @@ form{
     width: 380px;
     font-size: 30px;
 }
-
+/*Input fields css goes here*/
 input[type=tel]{
     padding: 15px;
     box-sizing: border-box;
@@ -346,7 +346,7 @@ button{
 .home-page .banner form h2{
     font-weight: 600;
 }
-
+/*showcase css goes here*/
 .home-page .showcase{
     position: relative;
     text-align: center;
@@ -404,7 +404,7 @@ h3{
     width: 60px;
     height: 2px;
 }
-
+/*showcase Testimonial goes here*/
 .home-page .showcase .testimonials{
     margin-bottom: 70px;
 }
@@ -533,7 +533,7 @@ h3 span{
     background: rgba(0,0,0,.1);
     margin: 0px 0px;
 }
-
+/*companies css image goes here*/
 .companies .kaedco{
     width: 190px;
     margin: 0 50px;
@@ -584,7 +584,7 @@ h3 span{
     height: 100px;
     margin: 0 50px;
 }
-
+/*merchant css goes here*/
 .merchant{
     background: #f9f8f4;
     margin-top: 50px;
@@ -602,7 +602,7 @@ h3 span{
     border: 0;
     border-radius: 50px;
 }
-
+/*footer goes here*/
 footer{
     background: rgba(0,0,0,.3);
     padding: 25px 0;
@@ -639,7 +639,7 @@ footer .copyright{
 }
 
 
-/* Media queries */
+/* Media queries goes here */
 
 @media screen and (max-width: 500px) {
     header .nav-btn .nav-btn-bar{
